@@ -1,264 +1,147 @@
-# ⚙️ Parallel & Cloud Computing Laboratory — B.Sc. (Hons.) Computer Application V Semester
+# Parallel & Cloud Computing Laboratory — B.Sc. (Hons.) Computer Application, Semester V
 
-<div align="center">
-
-![AMU](https://img.shields.io/badge/Aligarh_Muslim_University-006747?style=for-the-badge&logoColor=white)
-![Course](https://img.shields.io/badge/Course_Code-CABSXO--5P01-8B0000?style=for-the-badge)
-![Credits](https://img.shields.io/badge/Credits-02-0057A8?style=for-the-badge)
-![Semester](https://img.shields.io/badge/Semester-V-gold?style=for-the-badge)
-![Session](https://img.shields.io/badge/Session-2025--2026-333333?style=for-the-badge)
-
-> *"When a nation becomes devoid of art and learning, it invites poverty and when poverty comes it brings in its wake thousands of crimes."*
-> — **Sir Syed Ahmad Khan**
-
-</div>
+**Course Code:** CABSXO-5P01
+**Credits:** 02
+**Periods per Week:** 03
+**Department:** Computer Science, Aligarh Muslim University
+**Session:** 2025–2026
 
 ---
 
-## 📋 Table of Contents
+## About the Course
 
-- [About the Course](#-about-the-course)
-- [Course Details](#-course-details)
-- [Assessment Scheme](#-assessment-scheme)
-- [Weekly Lab Index](#-weekly-lab-index)
-- [Tech Stack](#-tech-stack)
-- [Lab File Format](#-lab-file-format)
-- [Department Info](#-department-info)
+This lab course covers Parallel and Cloud Computing. It starts with core C programming and array handling, moves into shared-memory parallelism using OpenMP, then distributed-memory communication using MPI, and ends with cloud computing topics — security, data analytics, and simulation using CloudSim.
 
----
+Students progress from sequential C programs to multi-threaded and multi-process parallel programs, and finally to cloud-based simulation tools.
 
-## 📖 About the Course
+## Course Objectives
 
-This laboratory course is designed for **B.Sc. (Computer Application) V Semester** students to build a working foundation in **Parallel and Cloud Computing**. The course begins with core C programming and array handling, advances through shared-memory parallelism with **OpenMP**, distributed-memory communication with **MPI**, and concludes with **Cloud Computing** concepts — security, data analytics, and simulation using **CloudSim**.
+- Build a foundation in C programming, control flow, and arrays
+- Implement shared-memory parallelism using OpenMP
+- Implement distributed-memory communication using MPI
+- Apply parallel techniques to numerical methods and sorting
+- Understand basic cloud security, data analytics, and simulation using CloudSim
 
-Students progress from sequential C code to multi-threaded and multi-process parallel programs, and finally to cloud-based service and simulation environments, gaining hands-on exposure to the full spectrum of modern high-performance and distributed computing.
+## Course Outcomes
 
----
+By the end of this course, students should be able to:
 
-## 📌 Course Details
-
-| Field | Details |
-|---|---|
-| **Course Title** | Laboratory Course-V |
-| **Course Code** | CABSXO-5P01 |
-| **Programme** | B.Sc. (Hons.) Computer Application |
-| **Semester** | V |
-| **Credits** | 02 |
-| **Periods Per Week** | 03 |
-| **Department** | Computer Science, AMU Aligarh |
-| **Edition** | Revised — January 2026 |
-
-### 🎯 Course Objectives
-
-- Build a strong foundation in C programming, control flow, and array manipulation
-- Understand and implement shared-memory parallelism using OpenMP
-- Understand and implement distributed-memory communication using MPI
-- Apply parallel techniques to numerical methods and sorting algorithms
-- Understand cloud security fundamentals, data analytics, and cloud simulation using CloudSim
-
-### ✅ Course Outcomes
-
-After completing this course, students will be able to:
-
-- Write, debug, and reason about sequential C programs involving numbers, characters, and arrays
-- Parallelize computational problems using OpenMP directives, threads, and synchronization constructs
-- Design and implement message-passing programs using MPI, including collective communication
-- Apply parallel sorting and numerical methods to solve computationally intensive problems
-- Evaluate basic cloud security practices and simulate cloud environments using CloudSim
+- Write and debug C programs involving numbers, characters, and arrays
+- Parallelize problems using OpenMP directives and synchronization
+- Write message-passing programs using MPI, including collective communication
+- Apply parallel sorting and numerical methods
+- Evaluate basic cloud security practices and simulate cloud environments with CloudSim
 
 ---
 
-## 📊 Assessment Scheme
+## Assessment Scheme
 
-```
-Total Marks: 100
-├── Continuous Assessment  →  60 Marks
-│   ├── Sessional I        →  30 Marks
-│   │   ├── Lab Report (signed)   →  20 Marks
-│   │   ├── Lab Question (in-lab) →   5 Marks
-│   │   └── Viva Voce             →   5 Marks
-│   └── Sessional II       →  30 Marks
-│       ├── Lab Report (signed)   →  20 Marks
-│       ├── Lab Question (in-lab) →   5 Marks
-│       └── Viva Voce             →   5 Marks
-└── Final Lab Examination   →  40 Marks
-```
+Total: 100 marks
 
-> ⚠️ **Minimum Requirement:** At least **10** timely completed and duly signed weekly assignments are compulsory to appear in the Final Lab Examination.
+- **Continuous Assessment — 60 marks**
+  - Sessional I (30): Lab report (20), lab question (5), viva (5)
+  - Sessional II (30): Lab report (20), lab question (5), viva (5)
+- **Final Lab Examination — 40 marks**
+
+At least 10 timely, completed, and signed weekly assignments are required to sit the final lab exam.
 
 ---
 
-## 📅 Weekly Lab Index
+## Weekly Lab Index
 
-### Week 1 — Basic C Programming and Array Operations ✅ *(this folder)*
+### Week 1 — Basic C Programming and Array Operations *(this folder)*
 
-**Objectives:** Build foundational C programming skills — control flow, functions, and array handling — before moving into parallel programming.
+Basic C programming skills — control flow, functions, and arrays.
 
 | # | Problem | File |
 |---|---|---|
-| 1 | Check if the entered number is a palindrome | `1_palindrome.c` |
+| 1 | Check if a number is a palindrome | `1_palindrome.c` |
 | 2 | Find the roots of a quadratic equation | `2_quadratic_roots.c` |
-| 3 | Determine if the entered year is a leap year | `3_leap_year.c` |
-| 4 | Calculate compound and simple interest | `4_simple_compound_interest.c` |
-| 5 | Check whether a character is a vowel or consonant | `5_vowel_consonant.c` |
-| 6 | Print prime numbers between a given range | `6_primes_in_range.c` |
+| 3 | Check if a year is a leap year | `3_leap_year.c` |
+| 4 | Calculate simple and compound interest | `4_simple_compound_interest.c` |
+| 5 | Check if a character is a vowel or consonant | `5_vowel_consonant.c` |
+| 6 | Print primes in a range | `6_primes_in_range.c` |
 | 7 | Find the LCM and HCF of two numbers | `7_lcm_hcf.c` |
-| 8 | Find the largest and smallest number in an array of size N | `8_largest_smallest_array.c` |
-| 9 | Insert a value at a particular location in an array of size N | `9_insert_in_array.c` |
-| 10 | Search for a value in an array of size N | `10_search_in_array.c` |
+| 8 | Find the largest and smallest value in an array | `8_largest_smallest_array.c` |
+| 9 | Insert a value at a given position in an array | `9_insert_in_array.c` |
+| 10 | Search for a value in an array | `10_search_in_array.c` |
 
-**Tools:** GCC (GNU C Compiler)
+**Tools:** GCC
 
-**How to compile & run:**
+**Compile & run:**
 
 ```bash
 cd "Week 1"
 
-# compile a single program (use -lm for programs 2 and 4, which use math.h)
+# single program (use -lm for programs 2 and 4, which use math.h)
 gcc 1_palindrome.c -o palindrome
 ./palindrome
 
 gcc 2_quadratic_roots.c -o quadratic -lm
 ./quadratic
 
-# or compile everything in one go
+# or compile everything at once
 for f in *.c; do gcc "$f" -o "${f%.c}.out" -lm; done
 ```
 
-> 📝 Programs 8, 9, and 10 are **interactive** — they first ask for the array size `N`, then prompt for each element. Program 9 allocates one extra slot (`N + 1`) to safely insert the new value. All 10 programs were compiled and tested with `gcc -Wall` and produced no errors or warnings.
+Note: Programs 8, 9, and 10 are interactive — they ask for array size `N`, then each element. Program 9 uses `N + 1` slots to allow inserting a new value. All programs were tested with `gcc -Wall` with no errors or warnings.
 
 ---
 
-### Week 2 — Basic OpenMP Programming and Number Checks
+### Later Weeks
 
-**Objectives:** Get started with the OpenMP API; parallelize simple number-checking problems.
-
----
-
-### Week 3 — OpenMP Task Distribution and Mathematical Computation
-
-**Objectives:** Distribute independent tasks across threads; parallelize basic mathematical computations.
-
----
-
-### Week 4 — Introduction to OpenMP Environment & Tools
-
-**Objectives:** Set up the OpenMP development environment; understand compiler flags and thread configuration.
-
----
-
-### Week 5 — Parallelizing with Threads & Basic Problems
-
-**Objectives:** Parallelize classic problems using `#pragma omp parallel` and thread-level constructs.
-
----
-
-### Week 6 — Data Environment & Synchronization
-
-**Objectives:** Understand shared vs. private data clauses; apply synchronization constructs (critical, barrier, lock).
-
----
-
-### Week 7 — Advanced Work-Sharing & Reduction
-
-**Objectives:** Use work-sharing constructs (`for`, `sections`) and the `reduction` clause for parallel aggregation.
-
----
-
-### Week 8 — Introduction to MPI Environment & Basic Communication
-
-**Objectives:** Set up the MPI environment; implement point-to-point send/receive communication.
-
----
-
-### Week 9 — Collective Communication Operations
-
-**Objectives:** Implement collective MPI operations — broadcast, scatter, gather, and reduce.
-
----
-
-### Week 10 — Parallel Numerical Methods & Advanced Sorting (OpenMP Focus)
-
-**Objectives:** Apply OpenMP to numerical methods and parallel sorting algorithms.
-
----
-
-### Week 11 — Advanced Parallel Sorting (OpenMP & MPI)
-
-**Objectives:** Compare and implement advanced parallel sorting algorithms using both OpenMP and MPI.
-
----
-
-### Week 12 — Cloud Security Fundamentals & Basic Web Services
-
-**Objectives:** Understand core cloud security principles; work with basic web services.
-
----
-
-### Week 13 — Cloud Data Analytics & Advanced Security
-
-**Objectives:** Explore cloud-based data analytics tools and advanced security practices.
-
----
-
-### Week 14 — Cloud Simulation with CloudSim
-
-**Objectives:** Simulate cloud computing environments and resource allocation strategies using CloudSim.
-
----
-
-## 🛠️ Tech Stack
-
-| Tool | Purpose |
+| Week | Topic |
 |---|---|
-| ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) | Core sequential programming (Week 1) |
-| ![OpenMP](https://img.shields.io/badge/OpenMP-FF6600?style=flat-square) | Shared-memory parallel programming (Weeks 2–7, 10–11) |
-| ![MPI](https://img.shields.io/badge/MPI-004C97?style=flat-square) | Distributed-memory message passing (Weeks 8–11) |
-| ![CloudSim](https://img.shields.io/badge/CloudSim-2E8B57?style=flat-square) | Cloud environment simulation (Week 14) |
-| **GCC** | C / OpenMP compilation |
+| 2 | Basic OpenMP programming and number checks |
+| 3 | OpenMP task distribution and mathematical computation |
+| 4 | Introduction to the OpenMP environment and tools |
+| 5 | Parallelizing with threads — basic problems |
+| 6 | Data environment and synchronization |
+| 7 | Advanced work-sharing and reduction |
+| 8 | Introduction to MPI — basic communication |
+| 9 | Collective MPI operations (broadcast, scatter, gather, reduce) |
+| 10 | Parallel numerical methods and sorting (OpenMP) |
+| 11 | Advanced parallel sorting (OpenMP & MPI) |
+| 12 | Cloud security fundamentals and basic web services |
+| 13 | Cloud data analytics and advanced security |
+| 14 | Cloud simulation with CloudSim |
 
 ---
 
-**Deliverables per exercise (teacher-signed):**
+## Tech Stack
+
+- **C / GCC** — core sequential programming (Week 1)
+- **OpenMP** — shared-memory parallel programming (Weeks 2–7, 10–11)
+- **MPI** — distributed-memory message passing (Weeks 8–11)
+- **CloudSim** — cloud simulation (Week 14)
+
+---
+
+## Deliverables per Exercise (teacher-signed)
+
 - Source code with sample input/output
 - Screenshot of compilation and execution *(from Week 2 onward)*
 
 ---
 
-## 📁 Lab File Format
+## Lab File Format
 
 ```
-Lab File Index Template
-─────────────────────────────────────────────────────
-Week No. │ Problems with Description │ Page No. │ Teacher Signature & Date
-─────────────────────────────────────────────────────
-   1     │ 1#, 2#, ... 10#           │          │
-   2     │ 1#, 2#, 3#                │          │
-  ...    │ ...                       │          │
-─────────────────────────────────────────────────────
-Header: Page Number
-Footer: Roll Number & Name
+Week No. | Problems with Description | Page No. | Teacher Signature & Date
+1        | 1#, 2#, ... 10#            |          |
+2        | 1#, 2#, 3#                 |          |
+...      | ...                        |          |
 ```
+
+Header: Page number
+Footer: Roll number & name
 
 ---
 
-## 🏛️ Department Info
+## Department Info
 
-| Field | Details |
-|---|---|
-| **Department** | Department of Computer Science |
-| **University** | Aligarh Muslim University, Aligarh (U.P.) India |
-| **Lab Manual Edition** | Revised — January 2026 |
-| **Convener** | Prof. Aasim Zafar |
-| **Committee Members** | Prof. Mohammad Ubaidullah Bokhari · Dr. Arman Rasool Faridi · Dr. Faisal Anwer |
-| **Design & Compilation** | Dr. Faraz Masood |
-
----
-
-<div align="center">
-
-**Department of Computer Science · Aligarh Muslim University**
-
-*Lab Manual CABSXO-5P01 · Revised Edition January 2026*
-
-</div>
+- **Department:** Computer Science, Aligarh Muslim University, Aligarh (U.P.), India
+- **Lab Manual Edition:** Revised — January 2026
+- **Convener:** Prof. Aasim Zafar
+- **Committee Members:** Prof. Mohammad Ubaidullah Bokhari, Dr. Arman Rasool Faridi, Dr. Faisal Anwer
+- **Design & Compilation:** Dr. Faraz Masood
